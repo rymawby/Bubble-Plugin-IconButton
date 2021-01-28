@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "containers"
+    },
+    "demo_page": "https://rymawby-iconbutton-example",
+    "description": "A Bootstrap based button that uses Font Awesome icons. You are also able to add your own custom styles and fonts.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1611801914835x737679972600048000/bubble-plugin-iconButton.png",
+    "license": "open_source",
+    "link": "https://rymawby.com",
+    "name": "IconButton",
+    "plugin_instructions": " - Drag button onto canvas\n - Add font awesome class to \"icon\" for example add fas fa-rocket\" from https://fontawesome.com/icons/rocket?style=solid\n - modify custom params"
+}

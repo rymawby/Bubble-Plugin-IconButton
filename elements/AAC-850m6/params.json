@@ -1,0 +1,133 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 200
+    },
+    "display": "IconButton",
+    "events": {
+        "AAI": {
+            "caption": "is clicked",
+            "name": "click"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Button type",
+            "default_val": "primary",
+            "doc": "These follow the bootstrap style of buttons. Visit https://getbootstrap.com/docs/4.0/components/buttons/ for more information.",
+            "editor": "Dropdown",
+            "in_style": false,
+            "name": "type",
+            "options": "primary,secondary,success,danger,warning,info,light,dark,link",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "text",
+            "default_val": " Button label",
+            "doc": "",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "text",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Font Awesome icon name",
+            "doc": "Visit https://fontawesome.com/icons?d=gallery&m=free and copy the name of the icon you want to use, click the icon and copy the class name here. Please visit plugin page for more examples on how to do this.",
+            "editor": "StaticText",
+            "name": "iconName",
+            "options": "",
+            "rank": 2
+        },
+        "AAG": {
+            "caption": "Automatically size the width to the contents of the button",
+            "default_val": false,
+            "doc": "By checking this box the button will automatically size to the size of the icon and text inside it.",
+            "editor": "Checkbox",
+            "name": "autoSize",
+            "options": "",
+            "rank": 3
+        },
+        "AAJ": {
+            "caption": "Custom fill color",
+            "editor": "Color",
+            "in_style": false,
+            "name": "fillColor",
+            "optional": true,
+            "rank": 6
+        },
+        "AAK": {
+            "caption": "Custom border color",
+            "editor": "Color",
+            "name": "borderColor",
+            "optional": true,
+            "rank": 7
+        },
+        "AAL": {
+            "caption": "Use custom colors, fonts and size",
+            "default_val": false,
+            "doc": "If this is checked you will use the below custom values rather than the values defined by the bootstrap type set above.",
+            "editor": "Checkbox",
+            "name": "useCustomColors",
+            "rank": 5
+        },
+        "AAM": {
+            "caption": "Custom hover color",
+            "editor": "Color",
+            "name": "hoverColor",
+            "optional": true,
+            "rank": 8
+        },
+        "AAN": {
+            "caption": "Hover label",
+            "doc": "Button label when hovered - also adds aria label for accessibility and screen readers. Ideal to use if you are using buttons that are icon only.",
+            "editor": "DynamicValue",
+            "name": "ariaLabel",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Custom font family",
+            "editor": "StaticText",
+            "name": "font",
+            "optional": true,
+            "rank": 10
+        },
+        "AAP": {
+            "caption": "Custom boldness",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "bold",
+            "rank": 11
+        },
+        "AAQ": {
+            "caption": "Custom font size",
+            "default_val": 14,
+            "editor": "StaticNumber",
+            "name": "size",
+            "optional": true,
+            "rank": 12
+        },
+        "AAR": {
+            "caption": "Custom font color",
+            "editor": "Color",
+            "name": "customFontColor",
+            "optional": true,
+            "rank": 9
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "BoxShadow": false,
+        "Font": false,
+        "MinWidth": true,
+        "Padding": false,
+        "resizable": true
+    }
+}
